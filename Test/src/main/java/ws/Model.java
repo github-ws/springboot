@@ -7,11 +7,13 @@ import javax.annotation.PostConstruct;
 
 @Component
 public class Model  {
+    public String name;
+
     public void sys1111(){
         System.out.println(12345);
     }
 
-    @PostConstruct
+   // @PostConstruct
     public void sys(){
         System.out.println("startmodel------t");
     }
