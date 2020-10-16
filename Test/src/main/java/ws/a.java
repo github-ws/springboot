@@ -17,7 +17,9 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
 import ws.mapper.Base;
 import ws.mapper1.Base1;
+import ws.util.MyFactoryBean;
 
+import javax.annotation.Resource;
 import javax.servlet.http.HttpServletResponse;
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -31,6 +33,11 @@ public class a{
     @Autowired
     Model m;
 
+    @Autowired
+    MyFactoryBean my;
+
+    @Resource
+    String myFactoryBean;
    // @Value("${server.port}")
     int port;
 
@@ -48,6 +55,10 @@ public class a{
     @RequestMapping("/b")
     @ResponseBody
     public Object  b(String name, HttpServletResponse response){
+        System.out.println(my.getClass());
+        System.out.println(my.getClass().toString());
+        System.out.println(myFactoryBean.getClass());
+        System.out.println(myFactoryBean.getClass().toString());
         System.out.println("into----b");
         response.setContentType("text/html;charset=utf-8");
         base1.test();

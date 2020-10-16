@@ -6,35 +6,35 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="client" />
         <module name="Test" />
         <module name="Service001" />
         <module name="eurika002" />
         <module name="eurika001" />
         <module name="Service002" />
-        <module name="config" />
-        <module name="untitled" />
+        <module name="TestNew" />
+        <module name="client" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="config" target="1.8" />
-      <module name="eureka" target="1.8" />
-      <module name="MyApp" target="1.8" />
-      <module name="untitled" target="1.8" />
+      <module name="client" target="1.8" />
+      <module name="eurika001" target="1.8" />
+      <module name="eurika002" target="1.8" />
+      <module name="Service001" target="1.8" />
+      <module name="Service002" target="1.8" />
+      <module name="t" target="1.8" />
+      <module name="Test" target="1.8" />
+      <module name="TestNew" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="MyApp" options="-parameters" />
       <module name="Service001" options="-parameters" />
       <module name="Service002" options="-parameters" />
       <module name="Test" options="-parameters" />
+      <module name="TestNew" options="-parameters" />
       <module name="client" options="-parameters" />
-      <module name="config" options="-parameters" />
-      <module name="eureka" options="-parameters" />
       <module name="eurika001" options="-parameters" />
       <module name="eurika002" options="-parameters" />
-      <module name="untitled" options="-parameters" />
     </option>
   </component>
 </project>

@@ -26,10 +26,10 @@ public class t {
 
     public static void main1(String[] args) throws Exception {
         AnnotationConfigApplicationContext a=new AnnotationConfigApplicationContext();
-        a.register(DataConfig.class);
-        a.scan("ws");
+        a.register(t.class);
+        //a.scan("ws");
         a.refresh();
-        a.getBean("base");
+        System.out.println(a.getBean("myFactoryBean").toString());
     }
 
     @Bean

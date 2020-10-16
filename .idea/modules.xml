@@ -2,7 +2,14 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/MyApp.iml" filepath="$PROJECT_DIR$/MyApp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Service001/Service001.iml" filepath="$PROJECT_DIR$/Service001/Service001.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Service002/Service002.iml" filepath="$PROJECT_DIR$/Service002/Service002.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Test/Test.iml" filepath="$PROJECT_DIR$/Test/Test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TestNew/TestNew.iml" filepath="$PROJECT_DIR$/TestNew/TestNew.iml" />
+      <module fileurl="file://$PROJECT_DIR$/client/client.iml" filepath="$PROJECT_DIR$/client/client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eurika001/eurika001.iml" filepath="$PROJECT_DIR$/eurika001/eurika001.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eurika002/eurika002.iml" filepath="$PROJECT_DIR$/eurika002/eurika002.iml" />
+      <module fileurl="file://$PROJECT_DIR$/t.iml" filepath="$PROJECT_DIR$/t.iml" />
     </modules>
   </component>
 </project>
